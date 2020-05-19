@@ -23,3 +23,4 @@ jobs:
     - name: setup stack
       uses: mstksg/setup-stack@v1
     - run: stack --version
+    - run: stack build
